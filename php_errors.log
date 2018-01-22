@@ -1,0 +1,21 @@
+[22-Jan-2018 16:16:17 Asia/Manila] PHP Warning:  explode() expects parameter 2 to be string, array given in C:\UwAmp310\www\tutorial\db.php on line 297
+[22-Jan-2018 16:16:17 Asia/Manila] PHP Stack trace:
+[22-Jan-2018 16:16:17 Asia/Manila] PHP   1. {main}() C:\UwAmp310\www\tutorial\index.php:0
+[22-Jan-2018 16:16:17 Asia/Manila] PHP   2. pdo_db->deleteData() C:\UwAmp310\www\tutorial\index.php:30
+[22-Jan-2018 16:16:17 Asia/Manila] PHP   3. explode() C:\UwAmp310\www\tutorial\db.php:297
+[22-Jan-2018 16:16:17 Asia/Manila] PHP Warning:  str_repeat(): Second argument has to be greater than or equal to 0 in C:\UwAmp310\www\tutorial\db.php on line 297
+[22-Jan-2018 16:16:17 Asia/Manila] PHP Stack trace:
+[22-Jan-2018 16:16:17 Asia/Manila] PHP   1. {main}() C:\UwAmp310\www\tutorial\index.php:0
+[22-Jan-2018 16:16:17 Asia/Manila] PHP   2. pdo_db->deleteData() C:\UwAmp310\www\tutorial\index.php:30
+[22-Jan-2018 16:16:17 Asia/Manila] PHP   3. str_repeat() C:\UwAmp310\www\tutorial\db.php:297
+[22-Jan-2018 16:16:17 Asia/Manila] PHP Warning:  explode() expects parameter 2 to be string, array given in C:\UwAmp310\www\tutorial\db.php on line 299
+[22-Jan-2018 16:16:17 Asia/Manila] PHP Stack trace:
+[22-Jan-2018 16:16:17 Asia/Manila] PHP   1. {main}() C:\UwAmp310\www\tutorial\index.php:0
+[22-Jan-2018 16:16:17 Asia/Manila] PHP   2. pdo_db->deleteData() C:\UwAmp310\www\tutorial\index.php:30
+[22-Jan-2018 16:16:17 Asia/Manila] PHP   3. explode() C:\UwAmp310\www\tutorial\db.php:299
+[22-Jan-2018 16:16:17 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 2031  in C:\UwAmp310\www\tutorial\db.php:301
+Stack trace:
+#0 C:\UwAmp310\www\tutorial\db.php(301): PDOStatement->execute(NULL)
+#1 C:\UwAmp310\www\tutorial\index.php(30): pdo_db->deleteData(Array)
+#2 {main}
+  thrown in C:\UwAmp310\www\tutorial\db.php on line 301
